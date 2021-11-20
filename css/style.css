@@ -6,7 +6,8 @@
 }
 
 :root {
-  --color-primary: #a52210;
+  --color-primary: #a5221a;
+  --color-secondary: #edd3cf;
 }
 
 /* main styling */
@@ -220,6 +221,8 @@ h2 {
   color: var(--color-primary);
   font-size: 2.4rem;
   font-weight: 300;
+  border-bottom: 1.5rem;
+  text-align: center;
 }
 #features h2 {
   color: var(--color-primary);
@@ -471,4 +474,90 @@ label {
 
 .room-price {
   font-size: 1.5rem;
+}
+
+/* Booking page */
+.booking {
+  padding: 5rem 0 10rem 0;
+}
+.book-container {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.left {
+  flex: 0 0 50%;
+  z-index: 1;
+}
+
+.right {
+  flex: 0 0 50%;
+  padding: 1rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+}
+
+.input {
+  padding: 1rem;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid var(--color-primary);
+}
+
+.circle-container {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  position: relative;
+  margin-top: 3rem;
+}
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  width: 100%;
+  height: 200%;
+  background-color: var(--color-secondary);
+  top: 0%;
+  left: 50%;
+}
+
+/* Login page */
+.register {
+  padding: 5rem 0 10rem 0;
+}
+.register .circle {
+  left: -50%;
+}
+
+.register .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register .form-grid {
+  margin: 2rem;
+}
+.btn-secondary {
+  grid-column: 1 / 3;
+  color: var(--color-secondary);
+}
+
+.form-paragraph {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.form-paragraph a {
+  text-decoration: none;
+  color: var(--color-primary);
 }

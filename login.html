@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Asia Hotel | Booking</title>
+    <title>Asia Hotel | Log in</title>
     <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
@@ -42,54 +42,33 @@
               <a class="nav-link" href="booking.html">Book Now</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html">Register</a>
-            </li>
+                <a class="nav-link" href="login.html">Register</a>
+              </li>
           </ul>
         </div>
     </header>
 
-    <section class="booking">
-      <h1><span class="secondary-heading">Book</span> Now</h1>
+    <section class="register">
+      <h1><span class="secondary-heading">Log</span> in</h1>
       <div class="circle-container">
-        <div class="book-container">
-          <div class="left">
-            <img src="./img/Hotel Booking-bro.svg" alt="">
-          </div>
-          <div class="right">
-            <form class="book-form">
-              <h3 class="heading_tertiary">Reservation Information</h3>
-              <div class="form-grid">
-                <label for="type-room">Room Type</label>
-                <select class="input" id="type-room">
-                  <option value="select">Please select room type</option>
-                  <option value="double">Double Room</option>
-                  <option value="two-people">Two People Room</option>
-                  <option value="single">Single Room</option>
-                  <option value="lux">Lux Room</option>
-                  <option value="children">Children Room</option>
-                </select>
-                <label>Check-in Date</label>
-                <input class="input" type="date">
-                <label>Check-in Time</label>
-                <input class="input" type="time">
-                <label>Check-out Date</label>
-                <input class="input" type="date">
-                <label>Number of Guests</label>
-                <input class="input" type="number">
-              </div>
-              <h3 class="heading_tertiary">Personal Information</h3>
-              <div class="form-grid">
-                <label>First name</label>
-                <input class="input" type="text">
-                <label>Last name</label>
-                <input class="input" type="text">
-                <label>Phone</label>
-                <input class="input" type="text">
-                <label>Email</label>
-                <input class="input" type="email">
-              </div>
-            </form>
-          </div>
+        <div class="book-container register-container">
+            <div class="right">
+                <form class="book-form">
+                    <h3 class="heading_tertiary">Sign in</h3>
+                    <div class="form-grid">
+                        <label>Email</label>
+                        <input class="input" type="email" placeholder="Email">
+                        <label>Password</label>
+                        <input class="input" type="password" placeholder="Password">
+                        <button class=" btn btn-secondary">Sign in</button>
+                    </div>
+                    <p class="form-paragraph">Don't have account <a href="#">Sign up</a></p>
+                    
+                </form>
+            </div>
+            <div class="left">
+              <img src="./img/Sign in-bro.svg" alt="">
+            </div>
         </div>
         
         <div class="circle"></div>
