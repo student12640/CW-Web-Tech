@@ -407,13 +407,22 @@ label {
 
 /* Price page */
 .price-container {
-  width: 65%;
+  width: 80%;
+  padding: 2rem 1rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
 }
 .room-image {
-  width: 100%;
+  flex: 0 0 60%;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -439,7 +448,7 @@ label {
   bottom: 0%;
   left: 0%;
   opacity: 0;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
   z-index: 10;
   transition: 0.5s all ease;
@@ -449,4 +458,17 @@ label {
   bottom: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.room-info {
+  padding: 1rem;
+}
+
+.room-type {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.room-price {
+  font-size: 1.5rem;
 }
