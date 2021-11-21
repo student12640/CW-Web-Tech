@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Asia</title>
     <link
       rel="stylesheet"
@@ -19,47 +22,52 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <p class="text-legal">
+      “This website was created to fulfill Web Technology module’s requirements
+      and does not represent an actual company or service”
+    </p>
     <main class="main">
-      <header>
-        <nav id="navbar">
-          <div class="container">
-            <h1 class="logo"><a href="#">Asia Hotel</a></h1>
-            <ul>
-              <li class="nav-item">
-                <a class="nav-link" href="#" class="current">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pricing.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="booking.html">Book Now</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Register</a>
-              </li>
-            </ul>
-          </div>
+      <header class="header">
+        <h1 class="logo"><a href="#">Asia Hotel</a></h1>
+        <div class="menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="booking.html">Booking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item pay-now">
+              <a class="nav-link" href="login.html">Register</a>
+            </li>
+          </ul>
         </nav>
-        <div id="showcase">
-          <div class="container">
-            <div class="showcase-content">
-              <h2 class="heading-italic">
-                Enjoy of staying in our hotel with our
-              </h2>
-              <h1 class="heading-primary">Luxury rooms and services</h1>
-              <button class="btn">
-                <a href="booking.html">Book Now</a>
-              </button>
-            </div>
+      </header>
+      <div id="showcase">
+        <div class="container">
+          <div class="showcase-content">
+            <h2 class="heading-italic">
+              Enjoy of staying in our hotel with our
+            </h2>
+            <h1 class="heading-primary">Luxury rooms and services</h1>
+            <button class="btn">
+              <a href="booking.html">Book Now</a>
+            </button>
           </div>
         </div>
-      </header>
+      </div>
     </main>
     <section class="partners">
       <div class="container-partners">
@@ -175,5 +183,6 @@
       </div>
       <p class="legal-text">All rights reserved. &copy; 2021</p>
     </footer>
+    <script src="script.js" defer></script>
   </body>
 </html>
