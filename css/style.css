@@ -68,9 +68,9 @@ h2 {
 .logo {
   font-size: 3rem;
   font-weight: 200;
+  padding: 2.2rem;
   letter-spacing: 0.05rem;
   color: var(--color-primary);
-  padding: 2rem;
 }
 
 .logo a {
