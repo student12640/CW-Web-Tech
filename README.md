@@ -18,3 +18,9 @@ Website pages:
 4.Booking
 5.Pricing
 6.Register
+
+Links:
+
+1.https://asia-hotel-cw-web-tech.netlify.app/
+
+2.https://student12640.github.io/CW-Web-Tech/
